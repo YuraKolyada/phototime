@@ -27,12 +27,11 @@ gulp.task('less', function(){
 });
 
 gulp.task('sprite', function(){
-	var spriteData = gulp.src('src/images/*.png')
+	var spriteData = gulp.src('src/images/icon/*.png')
 		.pipe(spritesmith({
 			imgName: 'icons.png',
 			cssName: 'icons.css',
-			padding: 5,
-			algorithm: "top-down"
+			padding: 15
 		}));
 	return spriteData.pipe(gulp.dest('dest/images/'));
 });
