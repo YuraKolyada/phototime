@@ -13,12 +13,12 @@ gulp.task('server', function(){
 			baseDir: './'
 		}
 	});
-    gulp.watch('./less/*.less', ['less']);
+    gulp.watch('./src/less/*.less', ['less']);
     gulp.watch('./index.html').on('change', browser.reload);
 });
 
 gulp.task('less', function(){
-	gulp.src('./less/*.less')
+	gulp.src('./src/less/*.less')
 		.pipe(less({
 			plugins: [autoprefix]
 		}))
