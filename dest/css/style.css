@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'GothamroundedBold';
+  src: url(../fonts/rounded/bold/gothamrounded-bold-webfont.eot);
+  src: url(../fonts/rounded/bold/gothamrounded-bold-webfont.woff) format('woff'), url(../fonts/rounded/bold/gothamrounded-bold-webfont.ttf) format('ttf'), url(../fonts/rounded/bold/gothamrounded-bold-webfont.svg) format('svg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'GothamroundedBook';
+  src: url(../fonts/rounded/book/gothamrounded-book-webfont.eot);
+  src: url(../fonts/rounded/book/gothamrounded-book-webfont.woff) format('woff'), url(../fonts/rounded/book/gothamrounded-book-webfont.ttf) format('ttf'), url(../fonts/rounded/book/gothamrounded-book-webfont.svg) format('svg');
+}
+@font-face {
+  font-family: 'GothamroundedLight';
+  src: url(../fonts/rounded/light/gothamrounded-light-webfont.eot);
+  src: url(../fonts/rounded/light/gothamrounded-light-webfont.woff) format('woff'), url(../fonts/rounded/light/gothamrounded-light-webfont.ttf) format('ttf'), url(../fonts/rounded/light/gothamrounded-light-webfont.svg) format('svg');
+}
+@font-face {
+  font-family: 'GothamroundedMedium';
+  src: url(../fonts/rounded/medium/gothamrounded-medium-webfont.eot);
+  src: url(../fonts/rounded/medium/gothamrounded-medium-webfont.woff) format('woff'), url(../fonts/rounded/medium/gothamrounded-medium-webfont.ttf) format('ttf'), url(../fonts/rounded/medium/gothamrounded-medium-webfont.svg) format('svg');
+}
+@font-face {
+  font-family: 'GothamroundedMediumItalic';
+  src: url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.eot);
+  src: url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.woff) format('woff'), url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.ttf) format('ttf'), url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.svg) format('svg');
+}
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-block;
+  padding: 18.5px 30px;
+  background: #16a085;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'GothamroundedBold';
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.app-title {
+  font-family: 'GothamroundedBold';
+  font-size: 18px;
+  color: #16a085;
+  letter-spacing: 2.9px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+.app-info {
+  font-family: 'GothamroundedBook';
+  font-size: 12px;
+  line-height: 24px;
+  color: #373737;
+  letter-spacing: 1.88px;
+  margin-bottom: 42px;
+}
+.app-info .bold-text {
+  font-family: 'GothamroundedBold';
+}
+.home {
+  position: relative;
+  background: url(../images/header-box.png) no-repeat;
+  min-height: 745px;
+  background-position: top center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  font-family: 'GothamroundedBold';
+  color: #ffffff;
+}
+header {
+  padding-top: 39px;
+  margin: 0 272px;
+  height: 55px;
+}
+header .nav {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+}
+header .nav li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+header .nav li {
+  padding-top: 32px;
+}
+header .nav li:first-child {
+  margin-right: 66px;
+}
+header .nav li:last-child {
+  margin-left: 77px;
+}
+header .nav li:nth-child(4) {
+  margin-left: 4px;
+}
+header .nav .logo {
+  padding-top: 0;
+  margin: 0 94px 0 102px;
+}
+.container {
+  padding-top: 242px;
+  text-align: center;
+}
+.container h3 {
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 5.7px;
+}
+.container p {
+  font-family: 'GothamroundedMedium';
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  padding: 12px 0 29px;
+}
+.container .home-list {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.container .home-list .icon {
+  display: block;
+}
+.container .home-list li {
+  margin-right: 15px;
+}
+.container .home-list li:last-child {
+  margin-right: 0;
+}
+.container .btn {
+  margin-bottom: 221px;
+}
+.photo-app {
+  width: 100%;
+  height: 492px;
+  background: #f5f6f7;
+  position: relative;
+  overflow: hidden;
+}
+.photo-app-container {
+  box-sizing: border-box;
+  padding-top: 110px;
+  margin: 0 128px;
+  width: 36.33333333%;
+  height: 100%;
+}
+.photo-app-container .btn {
+  padding: 19.5px 43px;
+}
+.iphone-in-arm {
+  position: absolute;
+  background: url(../images/phone-in-arm.png) no-repeat;
+  background-size: 100%;
+  width: 50%;
+  height: 100%;
+  top: 90px;
+  right: 128px;
+}
+.main-design {
+  width: 100%;
+  height: 560px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.main-design-container {
+  box-sizing: border-box;
+  padding-top: 142px;
+  margin: 0 64px 0 104px;
+  width: 36.33333333%;
+  height: 100%;
+  margin-right: 53px;
+}
+.main-design-container .btn {
+  padding: 19.5px 43px;
+  margin: 3px 40px 0 0;
+}
+.main-design-container .app-title {
+  margin-bottom: 36px;
+}
+.main-design-container .app-info {
+  padding-left: 4px;
+  line-height: 22px;
+  margin-bottom: 37px;
+}
+.flet-in-iphone {
+  position: absolute;
+  background: url(../images/flet_iphone.png) no-repeat;
+  background-size: 100%;
+  width: calc(25% - 4px);
+  height: 100%;
+  bottom: -146px;
+  left: 120px;
+}
