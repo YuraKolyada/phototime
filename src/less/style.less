@@ -89,6 +89,10 @@
 	cursor: pointer;
 }
 
+span.left-text {
+    letter-spacing: 1.84px;
+}
+
 ////
 .home {
 	position: relative;
@@ -146,39 +150,36 @@ header {
 	h3 {
 		text-transform: uppercase;
 		font-size: 36px;
-		letter-spacing: 6px;
-		text-indent: 8px;
+		letter-spacing: 5.9px;
+    	text-indent: 7px;
 	}
 
 	p {
 		font-family: 'GothamroundedMedium';
 		font-size: 16px;
-		letter-spacing: 2.5px;
-    	padding: 13px 0 28px;
-    	text-indent: 2px;
+		letter-spacing: 2.6px;
+    	padding: 13px 0 27.5px;
+    	text-indent: 2.2px;
 	}
 
 	.home-list {
-		display: block;
+		display: inline-flex;
 
 		.icon {
 			display: block;
 		}
 
 		li {
-			margin-right: 3px;
-			display: inline-block;
+			margin-right: 16px;
 		}
 
 		li:last-child {
 			margin-right: 0px;
 		}
-		li:first-child {
-			transform: translateX(-9px);
-		}	
 	}
 	.btn {
 		margin-bottom: 221px;
+		padding: 18.5px 28px;
 	}
 }
 
@@ -197,7 +198,12 @@ header {
 		height: 100%;
 
 		.btn {
-			padding: 19.5px 42px;
+			padding: 18.5px 41.5px;
+		    transform: translate(1px, -1px);
+		    text-indent: 2px;
+		    line-height: 18px;
+		    height: 14px;
+		    letter-spacing: 1.9px;
 		}
 	}
 }
@@ -215,7 +221,7 @@ header {
 
 .main-design {
 	width: 100%;
-	height: 560px;
+	height: 559px;
 	background: #ffffff;
 	position: relative;
 	overflow: hidden;
@@ -273,6 +279,7 @@ header {
 	font-size: 12px;
 	line-height: 24px;
 	letter-spacing: 2px;
+	text-indent: 2px;
 }
 
 
@@ -285,7 +292,7 @@ header {
 
 	&-wrapper {
 		box-sizing: border-box;
-		padding: 119px 0;
+		padding: 120px 0;
 		margin: 0 128px;
 		height: 100%;
 		display: flex;
@@ -297,9 +304,9 @@ header {
 .community-info {
 	text-align: center;
 	box-sizing: border-box;
-	padding-top: 45px;
+	padding-top: 44px;
 	color: #373737;
-	flex: 0 178px;
+	flex: 0 179px;
 	
 	.icon-logo-livello {
 		width: 59px;
@@ -311,8 +318,8 @@ header {
 		font-family: 'GothamroundedBold';
 		font-size: 16px;
 		line-height: 20px;
-		letter-spacing: 2.3px;
-		padding-top: 23px;
+		letter-spacing: 2.4px;
+		padding-top: 24px;
 		text-transform: uppercase;
 	}
 
@@ -322,6 +329,7 @@ header {
 		letter-spacing: 1.5px;
     	padding-top: 19px;
     	line-height: 12px;
+    	text-indent: 1px;
 	}
 }
 .slider {
@@ -358,7 +366,7 @@ header {
 	text-transform: uppercase;
 
 	h1 {
-		padding-top: 340px;
+		padding-top: 341px;
 		font-size: 22px;
 		letter-spacing: 5.1px;
 		line-height: 40px;
@@ -426,7 +434,7 @@ header {
 	&-wrapper {
 		text-align: center;
 		box-sizing: border-box;
-		padding-top: 87px;
+		padding-top: 88px;
 		margin: 0 100%*6/20/2; 
 	}
 }
@@ -509,7 +517,7 @@ footer {
 .footer-wrapper {
 	box-sizing: border-box;
 	margin: 0 10%;
-	padding-top: 44px;
+	padding-top: 45px;
 	font-family: 'GothamroundedBold';
 	color: #373737;
 	display: flex;
