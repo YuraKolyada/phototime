@@ -380,8 +380,10 @@ header .nav .logo {
   color: #373737;
   font-size: 12px;
   font-family: 'GothamroundedMedium';
-  letter-spacing: 1.9px;
+  letter-spacing: 1.86px;
   line-height: 22px;
+  word-spacing: 0.3px;
+  text-indent: 1px;
 }
 .store-wrapper > div {
   display: -ms-inline-flexbox;
@@ -451,7 +453,7 @@ footer {
   color: #373737;
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: 1.8px;
+  letter-spacing: 1.9px;
 }
 .footer-wrapper ul {
   display: -ms-flexbox;
@@ -464,20 +466,17 @@ footer {
 }
 .footer-wrapper ul li:first-child {
   padding-left: 0;
+  text-indent: -1.5px;
 }
 .footer-wrapper ul li:last-child {
   padding-right: 0;
   border: none;
+  word-spacing: 2px;
 }
 p.copyright {
   text-indent: -1px;
-  letter-spacing: 2.2px;
-}
-.footer-wrapper ul li:last-child {
-  text-indent: 2px;
-}
-.footer-wrapper ul li:first-child {
-  text-indent: -1px;
+  letter-spacing: 2px;
+  word-spacing: 1.2px;
 }
 .footer-logo {
   position: relative;
