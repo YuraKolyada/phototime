@@ -203,11 +203,11 @@ header .nav .logo {
   margin-bottom: 40px;
   margin-left: 2px;
   letter-spacing: 2px;
-  border-radius: 3px;
+  border-radius: 0px;
   text-indent: -3px;
 }
 .main-design-container .app-title {
-  margin-bottom: 36px;
+  margin-bottom: 37px;
 }
 .main-design-container .app-info {
   padding-left: 4px;
@@ -470,7 +470,7 @@ footer {
   border: none;
 }
 p.copyright {
-  text-indent: -1px;
+  text-indent: -3px;
   letter-spacing: 2.2px;
 }
 .footer-wrapper ul li:last-child {
