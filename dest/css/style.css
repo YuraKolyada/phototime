@@ -30,7 +30,7 @@
 }
 .btn {
   display: inline-block;
-  padding: 18.5px 30px;
+  padding: 18.5px 29px;
   background: #16a085;
   text-transform: uppercase;
   font-size: 12px;
@@ -41,6 +41,7 @@
   font-family: 'GothamroundedBold';
   cursor: pointer;
   letter-spacing: 2px;
+  text-indent: 2px;
 }
 .app-title {
   font-family: 'GothamroundedBold';
@@ -61,6 +62,10 @@
 }
 .app-info .bold-text {
   font-family: 'GothamroundedBold';
+}
+.icon {
+  display: inline-block;
+  cursor: pointer;
 }
 .home {
   position: relative;
@@ -113,13 +118,15 @@ header .nav .logo {
 .container h3 {
   text-transform: uppercase;
   font-size: 36px;
-  letter-spacing: 5.7px;
+  letter-spacing: 6px;
+  text-indent: 8px;
 }
 .container p {
   font-family: 'GothamroundedMedium';
   font-size: 16px;
   letter-spacing: 2.5px;
-  padding: 12px 0 29px;
+  padding: 13px 0 28px;
+  text-indent: 2px;
 }
 .container .home-list {
   display: -ms-inline-flexbox;
@@ -152,7 +159,7 @@ header .nav .logo {
   height: 100%;
 }
 .photo-app-container .btn {
-  padding: 19.5px 43px;
+  padding: 19.5px 42px;
 }
 .iphone-in-arm {
   position: absolute;
@@ -177,14 +184,17 @@ header .nav .logo {
 .main-design-container {
   box-sizing: border-box;
   padding-top: 142px;
-  margin: 0 64px 0 104px;
   width: 36.33333333%;
   height: 100%;
-  margin-right: 53px;
+  margin-right: 50px;
 }
 .main-design-container .btn {
-  padding: 19.5px 43px;
-  margin: 3px 40px 0 0;
+  padding: 19.5px 46px;
+  margin-bottom: 40px;
+  margin-left: 2px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  text-indent: -3px;
 }
 .main-design-container .app-title {
   margin-bottom: 36px;
@@ -198,8 +208,256 @@ header .nav .logo {
   position: absolute;
   background: url(../images/flet_iphone.png) no-repeat;
   background-size: 100%;
-  width: calc(25% - 4px);
+  width: calc(25% - 3px);
   height: 100%;
   bottom: -146px;
-  left: 120px;
+  left: 123px;
+}
+.arrow span:first-child {
+  margin: 0 19px 0 1px;
+}
+.number-photo {
+  font-family: 'GothamroundedBold';
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+.main-community {
+  width: 100%;
+  height: 482px;
+  background: #f5f6f7;
+}
+.main-community-wrapper {
+  box-sizing: border-box;
+  padding: 119px 0;
+  margin: 0 128px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.community-info {
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 45px;
+  color: #373737;
+  -ms-flex: 0 178px;
+      flex: 0 178px;
+}
+.community-info .icon-logo-livello {
+  width: 59px;
+  height: 55px;
+  background: url(../images/livello_logo.png) no-repeat;
+}
+.community-info h3 {
+  font-family: 'GothamroundedBold';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.3px;
+  padding-top: 23px;
+  text-transform: uppercase;
+}
+.community-info .text {
+  font-family: 'GothamroundedMedium';
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  padding-top: 19px;
+  line-height: 12px;
+}
+.slider {
+  font-size: 0;
+  position: relative;
+}
+.slider .arrow {
+  position: absolute;
+  right: 0;
+  top: -26px;
+}
+.slider .arrow span:first-child {
+  margin-right: 17px;
+}
+.slider img:first-child {
+  margin-right: 25px;
+}
+.main-subscribe {
+  background: url(../images/get_photo_iphone.png) no-repeat;
+  min-height: 790px;
+  background-position: top center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  font-family: 'GothamroundedBold';
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-subscribe h1 {
+  padding-top: 340px;
+  font-size: 22px;
+  letter-spacing: 5px;
+  line-height: 40px;
+  text-indent: 6px;
+}
+.subscribe-email > * {
+  vertical-align: middle;
+}
+.subscribe-email {
+  margin-top: 25px;
+  margin-left: -1px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 60px;
+  line-height: 60px;
+  font-family: 'GothamroundedMedium';
+}
+.subscribe-email input {
+  width: 280px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-indent: 20px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #373737;
+  letter-spacing: 2.5px;
+}
+.subscribe-email input:focus {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  outline: none;
+}
+.subscribe-email input[placeholder] {
+  color: #373737;
+  font-family: 'GothamroundedMedium';
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+.subscribe-email .check-button {
+  width: 63px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+  background: #16a085;
+  height: 100%;
+  line-height: 60px;
+  cursor: pointer;
+}
+.main-download-it {
+  height: 396px;
+  width: 100%;
+  background: #f5f6f7;
+  text-transform: uppercase;
+}
+.main-download-it-wrapper {
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 87px;
+  margin: 0 15%;
+}
+.download-title {
+  color: #373737;
+  font-size: 20px;
+  font-family: 'GothamroundedBold';
+  letter-spacing: 3px;
+  line-height: 20px;
+  margin-bottom: 9px;
+}
+.download-info {
+  color: #373737;
+  font-size: 12px;
+  font-family: 'GothamroundedMedium';
+  letter-spacing: 1.9px;
+  line-height: 22px;
+}
+.store-wrapper > div {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+}
+.store-wrapper {
+  margin-top: 42px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 16px;
+  font-family: 'GothamroundedBold';
+  letter-spacing: 2.3px;
+  height: 56px;
+  color: #ffffff;
+}
+.store-wrapper .title-content {
+  background: #1abc9c;
+  width: 240px;
+  line-height: 56px;
+  text-align: left;
+  text-indent: 24px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.store-wrapper .icon-container {
+  width: 56px;
+  background: #16a085;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.store-wrapper .icon-container .icon-apple {
+  transform: translate(-2px, 15px);
+}
+.store-wrapper .icon-container .icon-android {
+  transform: translateY(13.5px);
+}
+.store-wrapper .apple-store {
+  margin-right: 26px;
+}
+.play-store .title-content {
+  text-indent: 31px;
+  letter-spacing: 4px;
+}
+footer {
+  height: 161px;
+  background: #ffffff;
+  width: 100%;
+}
+.footer-wrapper {
+  box-sizing: border-box;
+  margin: 0 10%;
+  padding-top: 44px;
+  font-family: 'GothamroundedBold';
+  color: #373737;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-size: 14px;
+  letter-spacing: 2.15px;
+}
+.footer-wrapper a {
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+}
+.footer-wrapper ul {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 22px;
+}
+.footer-wrapper ul li {
+  padding: 0 10px;
+  border-right: 1px solid #16a085;
+}
+.footer-wrapper ul li:first-child {
+  padding-left: 0;
+}
+.footer-wrapper ul li:last-child {
+  padding-right: 0;
+  border: none;
+}
+.footer-logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
