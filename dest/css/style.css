@@ -67,6 +67,9 @@
   display: inline-block;
   cursor: pointer;
 }
+span.left-text {
+  letter-spacing: 1.84px;
+}
 .home {
   position: relative;
   background: url(../images/header-box.png) no-repeat;
@@ -119,34 +122,32 @@ header .nav .logo {
 .container h3 {
   text-transform: uppercase;
   font-size: 36px;
-  letter-spacing: 6px;
-  text-indent: 8px;
+  letter-spacing: 5.9px;
+  text-indent: 7px;
 }
 .container p {
   font-family: 'GothamroundedMedium';
   font-size: 16px;
-  letter-spacing: 2.5px;
-  padding: 13px 0 28px;
-  text-indent: 2px;
+  letter-spacing: 2.6px;
+  padding: 13px 0 27.5px;
+  text-indent: 2.2px;
 }
 .container .home-list {
-  display: block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 .container .home-list .icon {
   display: block;
 }
 .container .home-list li {
-  margin-right: 3px;
-  display: inline-block;
+  margin-right: 16px;
 }
 .container .home-list li:last-child {
   margin-right: 0px;
 }
-.container .home-list li:first-child {
-  transform: translateX(-9px);
-}
 .container .btn {
   margin-bottom: 221px;
+  padding: 18.5px 28px;
 }
 .photo-app {
   width: 100%;
@@ -163,7 +164,12 @@ header .nav .logo {
   height: 100%;
 }
 .photo-app-container .btn {
-  padding: 19.5px 42px;
+  padding: 18.5px 41.5px;
+  transform: translate(1px, -1px);
+  text-indent: 2px;
+  line-height: 18px;
+  height: 14px;
+  letter-spacing: 1.9px;
 }
 .iphone-in-arm {
   position: absolute;
@@ -176,7 +182,7 @@ header .nav .logo {
 }
 .main-design {
   width: 100%;
-  height: 560px;
+  height: 559px;
   background: #ffffff;
   position: relative;
   overflow: hidden;
@@ -225,7 +231,7 @@ header .nav .logo {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 2px;
-  text-indent: 1px;
+  text-indent: 2px;
 }
 .main-community {
   width: 100%;
@@ -234,7 +240,7 @@ header .nav .logo {
 }
 .main-community-wrapper {
   box-sizing: border-box;
-  padding: 119px 0;
+  padding: 120px 0;
   margin: 0 128px;
   height: 100%;
   display: -ms-flexbox;
@@ -245,10 +251,10 @@ header .nav .logo {
 .community-info {
   text-align: center;
   box-sizing: border-box;
-  padding-top: 45px;
+  padding-top: 44px;
   color: #373737;
-  -ms-flex: 0 178px;
-      flex: 0 178px;
+  -ms-flex: 0 179px;
+      flex: 0 179px;
 }
 .community-info .icon-logo-livello {
   width: 59px;
@@ -259,8 +265,8 @@ header .nav .logo {
   font-family: 'GothamroundedBold';
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 2.3px;
-  padding-top: 23px;
+  letter-spacing: 2.4px;
+  padding-top: 24px;
   text-transform: uppercase;
 }
 .community-info .text {
@@ -269,6 +275,7 @@ header .nav .logo {
   letter-spacing: 1.5px;
   padding-top: 19px;
   line-height: 12px;
+  text-indent: 1px;
 }
 .slider {
   font-size: 0;
@@ -298,7 +305,7 @@ header .nav .logo {
   text-transform: uppercase;
 }
 .main-subscribe h1 {
-  padding-top: 340px;
+  padding-top: 341px;
   font-size: 22px;
   letter-spacing: 5.1px;
   line-height: 40px;
@@ -358,7 +365,7 @@ header .nav .logo {
 .main-download-it-wrapper {
   text-align: center;
   box-sizing: border-box;
-  padding-top: 87px;
+  padding-top: 88px;
   margin: 0 15%;
 }
 .download-title {
@@ -430,7 +437,7 @@ footer {
 .footer-wrapper {
   box-sizing: border-box;
   margin: 0 10%;
-  padding-top: 44px;
+  padding-top: 45px;
   font-family: 'GothamroundedBold';
   color: #373737;
   display: -ms-flexbox;
