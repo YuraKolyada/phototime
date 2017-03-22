@@ -54,7 +54,7 @@
 	line-height: 12px;
 	color: #ffffff;
 	border: none;
-	border-radius: 5px;
+	border-radius: 3px;
 	font-family: 'GothamroundedBold';
 	cursor: pointer;
 	letter-spacing: 2px;
@@ -66,7 +66,7 @@
 	font-family: 'GothamroundedBold';
 	font-size: 18px;
 	color: #16a085;
-	letter-spacing: 2.9px;
+	letter-spacing: 2.85px;
 	text-transform: uppercase;
 	margin-bottom: 40px;
 	line-height: 20px;
@@ -124,6 +124,7 @@ header {
 			}
 			&:last-child {
 				margin-left: 77px;
+				text-indent: 2px;
 			}
 			&:nth-child(4) {
 				margin-left: 4px;
@@ -158,18 +159,22 @@ header {
 	}
 
 	.home-list {
-		display: inline-flex;
+		display: block;
 
 		.icon {
 			display: block;
 		}
 
 		li {
-			margin-right: 15px;
+			margin-right: 3px;
+			display: inline-block;
 		}
 
 		li:last-child {
-			margin-right: 0;
+			margin-right: 0px;
+		}
+		li:first-child {
+			transform: translateX(-9px);
 		}	
 	}
 	.btn {
@@ -355,7 +360,7 @@ header {
 	h1 {
 		padding-top: 340px;
 		font-size: 22px;
-		letter-spacing: 5px;
+		letter-spacing: 5.1px;
 		line-height: 40px;
 		text-indent: 6px;
 	}
@@ -453,16 +458,16 @@ header {
 	justify-content: center;
 	font-size: 16px;
 	font-family: 'GothamroundedBold';
-	letter-spacing: 2.3px;
+	letter-spacing: 2.5px;
 	height: 56px;
 	color: #ffffff;
 
 	.title-content {
 		background: #1abc9c;
 		width: 240px;
-		line-height: 56px;
+		line-height: 59px;
 		text-align: left;
-		text-indent: 24px;
+		text-indent: 23px;
 		border-top-left-radius: 3px;
 		border-bottom-left-radius: 3px;
 	}
@@ -477,7 +482,7 @@ header {
 		}
 
 		.icon-android {
-			transform: translateY(13.5px);
+			transform: translateY(13px);
 		}
 
 	}
@@ -489,8 +494,9 @@ header {
 
 .play-store {
 	.title-content{
-		text-indent: 31px;
+		text-indent: 30px;
 		letter-spacing: 4px;
+		line-height: 56px;
 	}
 }
 
@@ -534,6 +540,19 @@ footer {
 	}
 }
 
+p.copyright {
+    text-indent: -1px;
+    letter-spacing: 2.2px;
+}
+
+.footer-wrapper ul li:last-child {
+    text-indent: 2px;
+}
+.footer-wrapper ul li:first-child {
+    text-indent: -1px;
+}
+
 .footer-logo {
-	align-self: center;
+	position: relative;
+    top: -7px
 }

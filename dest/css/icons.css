@@ -21,6 +21,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: -68px 0px;
   width: 25px;
   height: 29px;
+  
 }
 .icon-angle-left {
   background-image: url(../images/icons.png);
@@ -45,6 +46,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: -108px -39px;
   width: 20px;
   height: 16px;
+  transform: translateY(2px);
 }
 .icon-dribbble {
   background-image: url(../images/icons.png);
