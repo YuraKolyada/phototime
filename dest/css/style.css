@@ -46,7 +46,7 @@
   font-family: 'GothamroundedBold';
   font-size: 18px;
   color: #16a085;
-  letter-spacing: 2.85px;
+  letter-spacing: 2.75px;
   text-transform: uppercase;
   margin-bottom: 40px;
   line-height: 20px;
@@ -81,7 +81,7 @@ span.left-text {
   color: #ffffff;
 }
 header {
-  padding-top: 39px;
+  padding-top: 40px;
   margin: 0 272px;
   height: 55px;
 }
@@ -105,7 +105,7 @@ header .nav li:first-child {
 }
 header .nav li:last-child {
   margin-left: 77px;
-  text-indent: 2px;
+  text-indent: 1.75px;
 }
 header .nav li:nth-child(4) {
   margin-left: 4px;
@@ -115,20 +115,20 @@ header .nav .logo {
   margin: 0 94px 0 102px;
 }
 .container {
-  padding-top: 242px;
+  padding-top: 243px;
   text-align: center;
 }
 .container h3 {
   text-transform: uppercase;
   font-size: 36px;
-  letter-spacing: 5.9px;
-  text-indent: 7px;
+  letter-spacing: 5.4px;
+  text-indent: 6px;
 }
 .container p {
   font-family: 'GothamroundedMedium';
   font-size: 16px;
   letter-spacing: 2.6px;
-  padding: 13px 0 27.5px;
+  padding: 12px 0 26.5px;
   text-indent: 2.2px;
 }
 .container .home-list {
@@ -198,15 +198,15 @@ header .nav .logo {
   margin-right: 50px;
 }
 .main-design-container .btn {
-  padding: 19.5px 46px;
+  padding: 19.5px 47px;
   margin-bottom: 40px;
   margin-left: 2px;
-  letter-spacing: 2px;
+  letter-spacing: 1.75px;
   border-radius: 3px;
   text-indent: -3px;
 }
 .main-design-container .app-title {
-  margin-bottom: 36px;
+  margin: 1px 0 35px 0;
 }
 .main-design-container .app-info {
   padding-left: 4px;
@@ -265,14 +265,14 @@ header .nav .logo {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 2.4px;
-  padding-top: 24px;
+  padding-top: 25px;
   text-transform: uppercase;
 }
 .community-info .text {
   font-family: 'GothamroundedMedium';
   font-size: 10px;
   letter-spacing: 1.5px;
-  padding-top: 19px;
+  padding-top: 18px;
   line-height: 12px;
   text-indent: 1px;
 }
@@ -306,7 +306,7 @@ header .nav .logo {
 .main-subscribe h1 {
   padding-top: 341px;
   font-size: 22px;
-  letter-spacing: 5.1px;
+  letter-spacing: 4.85px;
   line-height: 40px;
   text-indent: 6px;
 }
@@ -343,7 +343,7 @@ header .nav .logo {
   color: #373737;
   font-family: 'GothamroundedMedium';
   font-size: 16px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.6px;
 }
 .subscribe-email .check-button {
   width: 63px;
@@ -379,10 +379,10 @@ header .nav .logo {
   color: #373737;
   font-size: 12px;
   font-family: 'GothamroundedMedium';
-  letter-spacing: 1.86px;
+  letter-spacing: 1.82px;
   line-height: 22px;
-  word-spacing: 0.3px;
-  text-indent: 1px;
+  word-spacing: 0.5px;
+  text-indent: 0px;
 }
 .store-wrapper > div {
   display: -ms-inline-flexbox;
@@ -473,9 +473,9 @@ footer {
   word-spacing: 2px;
 }
 p.copyright {
-  text-indent: -1px;
-  letter-spacing: 2px;
-  word-spacing: 1.2px;
+  text-indent: 0px;
+  letter-spacing: 1.9px;
+  word-spacing: 1px;
 }
 .footer-logo {
   position: relative;
