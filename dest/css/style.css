@@ -252,6 +252,15 @@ header .nav .logo {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  position: relative;
+}
+.main-community-wrapper .arrow {
+  position: absolute;
+  right: 0;
+  top: 94px;
+}
+.main-community-wrapper .arrow span:first-child {
+  margin-right: 13px;
 }
 .community-info {
   text-align: center;
@@ -283,19 +292,18 @@ header .nav .logo {
   text-indent: 1px;
 }
 .slider {
-  font-size: 0;
-  position: relative;
-}
-.slider .arrow {
   position: absolute;
-  right: 0;
-  top: -26px;
+  display: -ms-flexbox;
+  display: flex;
 }
-.slider .arrow span:first-child {
-  margin-right: 17px;
-}
-.slider img:first-child {
+.slider img {
   margin-right: 25px;
+}
+.slider-conteiner {
+  width: 767px;
+  height: 244px;
+  overflow: hidden;
+  position: relative;
 }
 .main-subscribe {
   background: url(../images/get_photo_iphone.png) no-repeat;
