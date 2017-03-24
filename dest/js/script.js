@@ -42,7 +42,7 @@ function Slider(src){
 	this.next = src.arrow.children[1];
 	let	width = this.conteinerByPhoto.clientWidth,
 		lengthPhoto = this.conteinerByPhoto.children.length,
-		widthPhoto = parseInt(getComputedStyle(this.conteinerByPhoto.children[0]).width) || this.conteinerByPhoto.children[0].clientWidth;
+		widthPhoto = src.widthPhoto;
 	let maxWidth = (widthPhoto*(lengthPhoto-2) + this.marginR*(lengthPhoto-2));
 
 	this.prevSlide = (function(){
@@ -62,7 +62,8 @@ let slider = new Slider({
 	arrow: document.getElementById('arrows'),
 	marginRight: 25,
 	conteinerByPhoto: document.getElementById('slider_photo'),
-	lengthTransitionPhoto: 1
+	lengthTransitionPhoto: 1,
+	widthPhoto: 370
 });
 
 slider.prev.onclick = slider.prevSlide;
