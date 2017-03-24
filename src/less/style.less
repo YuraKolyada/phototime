@@ -303,6 +303,17 @@ header {
 		height: 100%;
 		display: flex;
 		justify-content: space-between;
+		position: relative;
+
+		.arrow {
+			position: absolute;
+			right: 0;
+			top: 94px;
+
+			span:first-child {
+				margin-right: 13px;
+			}
+		}
 	}
 
 }
@@ -338,23 +349,28 @@ header {
     	text-indent: 1px;
 	}
 }
+
+/// slider start
+
 .slider {
-	font-size: 0;
-	position: relative;
+	position: absolute;
+	display: flex;
 
-	.arrow {
-		position: absolute;
-		right: 0;
-		top: -26px;
-
-		span:first-child {
-			margin-right: 17px;
-		}
-	}
 }
-.slider img:first-child {
+
+.slider img {
 	margin-right: 25px;
 }
+
+.slider-conteiner {
+	width: 767px;
+	height: 244px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/// slider end
 
 ////community content end 
 
