@@ -11,7 +11,6 @@ navigation.onclick = function(e){
 	let element = event.getAttribute('href').slice(1),
 		elementById = document.getElementById(element),
 		scrollValue = 0; 
-	console.log(elementById);
 
 	let start = Date.now();
 	let timer = setInterval( () => {
@@ -43,7 +42,7 @@ function Slider(src){
 	this.next = src.arrow.children[1];
 	let	width = this.conteinerByPhoto.clientWidth,
 		lengthPhoto = this.conteinerByPhoto.children.length,
-		widthPhoto = this.conteinerByPhoto.children[0].clientWidth;
+		widthPhoto = parseInt(getComputedStyle(this.conteinerByPhoto.children[0]).width) || this.conteinerByPhoto.children[0].clientWidth;
 	let maxWidth = (widthPhoto*(lengthPhoto-2) + this.marginR*(lengthPhoto-2));
 
 	this.prevSlide = (function(){
@@ -65,7 +64,6 @@ let slider = new Slider({
 	conteinerByPhoto: document.getElementById('slider_photo'),
 	lengthTransitionPhoto: 1
 });
-console.log(slider);
 
 slider.prev.onclick = slider.prevSlide;
 slider.next.onclick = slider.nextSlide;
