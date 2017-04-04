@@ -1,32 +1,30 @@
 @font-face {
-  font-family: 'GothamroundedBold';
-  src: url(../fonts/rounded/bold/gothamrounded-bold-webfont.eot);
-  src: url(../fonts/rounded/bold/gothamrounded-bold-webfont.woff) format('woff'), url(../fonts/rounded/bold/gothamrounded-bold-webfont.svg) format('svg'), url(../fonts/rounded/bold/GothamRounded-Bold.otf) format('otf');
+  font-family: 'gothamrounded';
+  src: url(../fonts/gothamrounded-book-webfont-webfont.woff2) format('woff2'), url(../fonts/gothamrounded-book-webfont-webfont.woff) format('woff');
+  font-weight: 100;
 }
 @font-face {
-  font-family: 'GothamroundedBoldX';
-  src: url(../fonts/rounded/bold/gothamrounded-bold-webfont.eot);
-  src: url(../fonts/rounded/bold/GothamRoundedBold_21016.ttf) format('truetype'), url(../fonts/rounded/bold/gothamrounded-bold-webfont.woff) format('woff');
+  font-family: 'gothamrounded';
+  src: url(../fonts/gothamrounded-bold-webfont-webfont.woff2) format('woff2'), url(../fonts/gothamrounded-bold-webfont-webfont.woff) format('woff');
+  font-weight: bold;
 }
 @font-face {
-  font-family: 'GothamroundedBook';
-  src: url(../fonts/rounded/book/gothamrounded-book-webfont.eot);
-  src: url(../fonts/rounded/book/gothamrounded-book-webfont.woff) format('woff'), url(../fonts/rounded/book/gothamrounded-book-webfont.ttf) format('ttf'), url(../fonts/rounded/book/gothamrounded-book-webfont.svg) format('svg');
+  font-family: 'gothamrounded';
+  src: url(../fonts/gothamrounded-light-webfont-webfont.woff2) format('woff2'), url(../fonts/gothamrounded-light-webfont-webfont.woff) format('woff');
+  font-weight: 300;
 }
 @font-face {
-  font-family: 'GothamroundedLight';
-  src: url(../fonts/rounded/light/gothamrounded-light-webfont.eot);
-  src: url(../fonts/rounded/light/gothamrounded-light-webfont.woff) format('woff'), url(../fonts/rounded/light/gothamrounded-light-webfont.ttf) format('ttf'), url(../fonts/rounded/light/gothamrounded-light-webfont.svg) format('svg');
-}
-@font-face {
-  font-family: 'GothamroundedMedium';
-  src: url(../fonts/rounded/medium/gothamrounded-medium-webfont.eot);
-  src: url(../fonts/rounded/medium/gothamrounded-medium-webfont.woff) format('woff'), url(../fonts/rounded/medium/gothamrounded-medium-webfont.ttf) format('ttf'), url(../fonts/rounded/medium/gothamrounded-medium-webfont.svg) format('svg');
+  font-family: 'gothamrounded';
+  src: url(../fonts/gothamrounded-medium-webfont-webfont.woff2) format('woff2'), url(../fonts/gothamrounded-medium-webfont-webfont.woff) format('woff');
+  font-weight: 500;
 }
 @font-face {
   font-family: 'GothamroundedMediumItalic';
   src: url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.eot);
   src: url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.woff) format('woff'), url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.ttf) format('ttf'), url(../fonts/rounded/mediumitalic/gothamrounded-mediumitalic-webfont.svg) format('svg');
+}
+* {
+  font-family: 'gothamrounded';
 }
 .wrapper {
   width: 1280px;
@@ -42,13 +40,13 @@
   color: #ffffff;
   border: none;
   border-radius: 3px;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   cursor: pointer;
   letter-spacing: 2px;
   text-indent: 2px;
 }
 .app-title {
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   font-size: 18px;
   color: #16a085;
   letter-spacing: 2.9px;
@@ -57,7 +55,7 @@
   line-height: 20px;
 }
 .app-info {
-  font-family: 'GothamroundedBook';
+  font-weight: 100;
   font-size: 12px;
   line-height: 24px;
   color: #373737;
@@ -65,7 +63,7 @@
   margin-bottom: 42px;
 }
 .app-info .bold-text {
-  font-family: 'GothamroundedBoldX';
+  font-weight: bold;
 }
 .icon {
   display: inline-block;
@@ -82,7 +80,7 @@ span.left-text {
   width: 100%;
   height: auto;
   background-size: cover;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   color: #ffffff;
 }
 header {
@@ -131,7 +129,7 @@ header .nav .logo {
   word-spacing: 1.9px;
 }
 .container p {
-  font-family: 'GothamroundedMedium';
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 2.6px;
   padding: 13px 0 27.5px;
@@ -232,7 +230,7 @@ header .nav .logo {
   margin: 0 19px 0 1px;
 }
 .number-photo {
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 2px;
@@ -276,7 +274,7 @@ header .nav .logo {
   background: url(../images/livello_logo.png) no-repeat;
 }
 .community-info h3 {
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 2.4px;
@@ -284,7 +282,7 @@ header .nav .logo {
   text-transform: uppercase;
 }
 .community-info .text {
-  font-family: 'GothamroundedMedium';
+  font-weight: 500;
   font-size: 10px;
   letter-spacing: 1.5px;
   padding-top: 18px;
@@ -312,7 +310,7 @@ header .nav .logo {
   width: 100%;
   height: auto;
   background-size: cover;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -334,7 +332,7 @@ header .nav .logo {
   display: inline-flex;
   height: 60px;
   line-height: 60px;
-  font-family: 'GothamroundedMedium';
+  font-weight: 500;
 }
 .subscribe-email input {
   width: 280px;
@@ -355,7 +353,7 @@ header .nav .logo {
 }
 .subscribe-email input[placeholder] {
   color: #373737;
-  font-family: 'GothamroundedMedium';
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 2.6px;
 }
@@ -384,7 +382,7 @@ header .nav .logo {
 .download-title {
   color: #373737;
   font-size: 20px;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   letter-spacing: 3px;
   line-height: 20px;
   margin-bottom: 9px;
@@ -392,7 +390,7 @@ header .nav .logo {
 .download-info {
   color: #373737;
   font-size: 12px;
-  font-family: 'GothamroundedMedium';
+  font-weight: 500;
   letter-spacing: 1.82px;
   line-height: 22px;
   word-spacing: 0.5px;
@@ -410,7 +408,7 @@ header .nav .logo {
   -ms-flex-pack: center;
       justify-content: center;
   font-size: 16px;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   letter-spacing: 2.5px;
   height: 56px;
   color: #ffffff;
@@ -453,7 +451,7 @@ footer {
   box-sizing: border-box;
   margin: 0 10%;
   padding-top: 45px;
-  font-family: 'GothamroundedBold';
+  font-weight: bold;
   color: #373737;
   display: -ms-flexbox;
   display: flex;
